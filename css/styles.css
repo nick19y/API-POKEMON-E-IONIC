@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+.img-logo{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-logo:hover{
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    background-color: #2a75bb;
+}
+.pokemon-card{
+    justify-content: center;
+    align-items: center;
+    margin: 3% 20%;
+    border-radius: 10px;
+    --ion-background-color: #ffcb05;
+}
+.img-slide{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+}
+li{
+    color: #333;
+}
+.pokemon-information{
+    border: 1px solid;
+    margin: 0 30%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.informacoes-pokemon-h1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: 'Zen Dots', cursive;
+    background-color: #ffcb05;
+    color: #2a75bb;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1{
+    margin-top: 15px;
+}
+.btn_2{
+    height: 50px;
+    width: 50px;
+}
+.list{
+    margin-top: 60px;
+}
+.content{
+    --ion-background-color: #2a75bb;
+}
+@media screen and (max-width:1080px){
+    .pokemon-card{
+        margin:3% 5%;
+    }
+    .pokemon-information{
+        margin: 5% 10%;
+    }
+}
